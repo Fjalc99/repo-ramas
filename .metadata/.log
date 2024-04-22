@@ -564,3 +564,17 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMav
 	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 13:28:05.168
+!MESSAGE Classpath changed for project: ejemploConRamas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 13:28:05.182
+!MESSAGE Classpath changed for project: ejemploConRamas
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-04-22 13:28:05.193
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
