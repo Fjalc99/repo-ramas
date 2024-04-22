@@ -674,3 +674,34 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMav
 	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
 	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 13:29:21.084
+!MESSAGE Classpath changed for project: ejemploConRamas
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-04-22 13:29:21.098
+!MESSAGE Classpath changed for project: ejemploConRamas
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2024-04-22 13:29:21.123
+!MESSAGE Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.m2e.core.project.IMavenProjectFacade.getArtifactKey()" because "facade" is null
+	at org.springframework.tooling.jdt.ls.commons.classpath.ClasspathUtil.createProjectBuild(ClasspathUtil.java:235)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:146)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-04-22 13:31:01.473
+!MESSAGE An exception occurred during push on URI https://github.com/Fjalc99/repo-ramas.git: https://github.com/Fjalc99/repo-ramas.git: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/Fjalc99/repo-ramas.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:695)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:637)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1557)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2024-04-22 13:31:01.473
+!MESSAGE Can't connect to any repository: https://github.com/Fjalc99/repo-ramas.git (https://github.com/Fjalc99/repo-ramas.git: not authorized)
