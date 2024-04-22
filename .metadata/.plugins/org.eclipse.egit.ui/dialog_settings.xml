@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="CommitDialog.showUntracked" value="true"/>
+	<list key="CommitDialog.authorValues">
+		<item value="Fran &lt;alcantarilla.cafra24@triana.salesianos.edu&gt;"/>
+	</list>
+	<list key="CommitDialog.committerValues">
+		<item value="Fran &lt;alcantarilla.cafra24@triana.salesianos.edu&gt;"/>
+	</list>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="200,200"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+		<list key="C:\Users\alcantarilla.cafra24\Desktop\repoConRamas\.git">
+			<item value="false"/>
+			<item value="Fran &lt;alcantarilla.cafra24@triana.salesianos.edu&gt;"/>
+			<item value="p"/>
+			<item value="Fran &lt;alcantarilla.cafra24@triana.salesianos.edu&gt;"/>
+			<item value="c098f07075516ea058101f71fa86f774581c238f"/>
+			<item value="0"/>
+			<item value="false"/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.egit.ui.COMMIT_DIALOG_SECTION">
+		<item key="DIALOG_X_ORIGIN" value="-55"/>
+		<item key="DIALOG_Y_ORIGIN" value="-228"/>
+		<item key="DIALOG_WIDTH" value="642"/>
+		<item key="DIALOG_HEIGHT" value="641"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
+	</section>
+</section>
