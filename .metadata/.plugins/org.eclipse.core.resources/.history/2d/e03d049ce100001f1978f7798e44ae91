@@ -1,0 +1,18 @@
+package ejemploConRamasController;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+@Controller
+public class MainDeMentira {
+
+	
+	@GetMapping ("/")
+	public String holaMundo (Model model) {
+		model.addAttribute("texto", "Hola mundo" );
+		
+		return "holaMundo";
+	}
+	
+}
